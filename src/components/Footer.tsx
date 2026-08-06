@@ -1,5 +1,5 @@
 import { Logo } from './Logo'
-import { instagramUrl, whatsappUrl } from '../data/therapies'
+import { instagramUrl, location, whatsappUrl } from '../data/therapies'
 
 export function Footer() {
   const year = new Date().getFullYear()
@@ -11,7 +11,7 @@ export function Footer() {
           <Logo className="site-footer__logo" />
           <div>
             <strong>Lucila Souza</strong>
-            <p>Terapeuta Integrativa</p>
+            <p>Terapeuta Integrativa · {location}</p>
           </div>
         </div>
         <div className="site-footer__links">

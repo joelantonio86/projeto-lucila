@@ -1,23 +1,23 @@
-import reikiBeneficiosImg from '../assets/posts/reiki-beneficios.png'
-import reikiAntesDepoisImg from '../assets/posts/reiki-antes-depois.png'
-import citacaoBudaImg from '../assets/posts/citacao-buda.png'
+import reikiImg from '../assets/posts/reiki.png'
+import dicaImg from '../assets/posts/dica.png'
+import somatizacaoImg from '../assets/posts/somatizacao.png'
 import { instagramUrl } from '../data/therapies'
 
 const posts = [
   {
-    src: reikiBeneficiosImg,
-    alt: 'Post com benefícios do Reiki',
-    label: 'Benefícios',
-  },
-  {
-    src: reikiAntesDepoisImg,
-    alt: 'Ilustração humorística antes e depois do Reiki',
+    src: reikiImg,
+    alt: 'Publicação sobre Reiki e limpeza energética',
     label: 'Reiki',
   },
   {
-    src: citacaoBudaImg,
-    alt: 'Citação inspiradora com imagem de Buda',
-    label: 'Reflexão',
+    src: dicaImg,
+    alt: 'Dica de bem-estar para dores de cabeça',
+    label: 'Orientação',
+  },
+  {
+    src: somatizacaoImg,
+    alt: 'Conteúdo sobre somatização e emoções',
+    label: 'Saúde emocional',
   },
 ]
 
@@ -28,11 +28,15 @@ export function InstagramPreview() {
       aria-labelledby="instagram-title"
     >
       <div className="section__inner">
-        <p className="eyebrow">No Instagram</p>
-        <h2 id="instagram-title">Conteúdos que acolhem</h2>
+        <p className="eyebrow">Conteúdo</p>
+        <h2 id="instagram-title">Acompanhe no Instagram</h2>
         <p className="section__lead">
-          Dicas, reflexões e terapias no dia a dia. Acompanhe e fale comigo por
-          lá.
+          Orientações, reflexões e informações sobre terapias integrativas no
+          perfil{' '}
+          <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
+            @lusouza.terapias.holisticas
+          </a>
+          .
         </p>
 
         <div className="post-mosaic">

@@ -1,5 +1,6 @@
 import {
   instagramUrl,
+  location,
   whatsappDisplay,
   whatsappUrl,
 } from '../data/therapies'
@@ -13,19 +14,37 @@ export function Contact() {
     >
       <div className="section__inner contact__panel">
         <p className="eyebrow">Contato</p>
-        <h2 id="contato-title">Vamos conversar?</h2>
+        <h2 id="contato-title">Agende seu atendimento</h2>
         <p>
-          Tire dúvidas, conheça a agenda e marque seu atendimento pelo WhatsApp
-          ou Instagram.
+          Atendimento em {location}. Envie uma mensagem para tirar dúvidas ou
+          marcar horário.
         </p>
+        <dl className="contact__meta">
+          <div>
+            <dt>WhatsApp</dt>
+            <dd>
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+                {whatsappDisplay}
+              </a>
+            </dd>
+          </div>
+          <div>
+            <dt>Instagram</dt>
+            <dd>
+              <a href={instagramUrl} target="_blank" rel="noopener noreferrer">
+                @lusouza.terapias.holisticas
+              </a>
+            </dd>
+          </div>
+        </dl>
         <div className="contact__actions">
           <a
-            className="btn btn--whatsapp"
+            className="btn"
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
-            WhatsApp {whatsappDisplay}
+            Conversar no WhatsApp
           </a>
           <a
             className="btn btn--ghost"
@@ -33,7 +52,7 @@ export function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @lusouza.terapias.holisticas
+            Abrir Instagram
           </a>
         </div>
       </div>

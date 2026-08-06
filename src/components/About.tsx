@@ -1,4 +1,4 @@
-import { aboutText, insight } from '../data/therapies'
+import { aboutText, credentials, insight, location } from '../data/therapies'
 
 export function About() {
   return (
@@ -6,12 +6,18 @@ export function About() {
       <div className="section__inner about__grid">
         <div>
           <p className="eyebrow">Sobre</p>
-          <h2 id="sobre-title">Presença, escuta e equilíbrio</h2>
+          <h2 id="sobre-title">Formação e presença no cuidado</h2>
           <p className="about__text">{aboutText}</p>
+          <p className="about__location">{location}</p>
+          <ul className="credential-list">
+            {credentials.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
         </div>
 
         <aside className="insight" aria-label={insight.title}>
-          <p className="eyebrow">Olhar integrativo</p>
+          <p className="eyebrow">Abordagem</p>
           <h3>{insight.title}</h3>
           <p>{insight.text}</p>
         </aside>

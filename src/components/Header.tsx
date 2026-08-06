@@ -41,12 +41,12 @@ export function Header() {
             </a>
           ))}
           <a
-            className="btn btn--small btn--whatsapp"
+            className="btn btn--small"
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
-            WhatsApp
+            Agendar
           </a>
         </nav>
 
@@ -74,13 +74,13 @@ export function Header() {
           </a>
         ))}
         <a
-          className="btn btn--whatsapp"
+          className="btn"
           href={whatsappUrl}
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => setOpen(false)}
         >
-          Falar no WhatsApp
+          Agendar atendimento
         </a>
         <a
           className="btn btn--ghost"

@@ -9,19 +9,15 @@ export function Therapies() {
     >
       <div className="section__inner">
         <p className="eyebrow">Terapias</p>
-        <h2 id="terapias-title">Caminhos para o bem-estar</h2>
+        <h2 id="terapias-title">Especialidades</h2>
         <p className="section__lead">
-          Textos curtos sobre cada abordagem, para você conhecer e sentir o que
-          mais combina com o seu momento.
+          Cada abordagem é apresentada de forma clara, para que você escolha o
+          caminho mais adequado ao seu momento.
         </p>
 
         <ul className="therapy-list">
           {therapies.map((therapy, index) => (
-            <li
-              className="therapy-item"
-              key={therapy.id}
-              style={{ animationDelay: `${index * 60}ms` }}
-            >
+            <li className="therapy-item" key={therapy.id}>
               <span className="therapy-item__index" aria-hidden="true">
                 {String(index + 1).padStart(2, '0')}
               </span>

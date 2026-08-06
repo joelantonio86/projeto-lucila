@@ -10,59 +10,68 @@ export const therapies: Therapy[] = [
     id: 'acupuntura',
     name: 'Acupuntura',
     summary:
-      'Técnica milenar chinesa que favorece a cura e a prevenção de desconfortos físicos e psicossomáticos, como ansiedade, estresse e insônia, reequilibrando corpo, mente e espírito.',
+      'Técnica milenar chinesa para prevenção e tratamento de desconfortos físicos e psicossomáticos — como ansiedade, estresse e insônia — favorecendo o equilíbrio do corpo e da mente.',
   },
   {
     id: 'auriculoterapia',
     name: 'Auriculoterapia',
     summary:
-      'Acupuntura no pavilhão auricular com microagulhas, sementes, cristais ou Stiper, tratando corpo e mente por meio desse microsistema.',
+      'Estimulação de pontos no pavilhão auricular com microagulhas, sementes, cristais ou Stiper, atuando sobre o organismo por meio desse microsistema.',
   },
   {
     id: 'tuina',
     name: 'Tui Ná',
     summary:
-      'Massagem terapêutica chinesa voltada ao bem-estar, ao relaxamento e à reintegração de corpo, mente e espírito.',
+      'Massagem terapêutica chinesa voltada ao bem-estar, ao relaxamento muscular e à reintegração entre corpo, mente e espírito.',
   },
   {
     id: 'constelacao',
     name: 'Constelação Familiar Sistêmica',
     summary:
-      'Terapia breve que ajuda a olhar o próprio sistema familiar, reconhecer lealdades e ciclos repetidos, e encontrar caminhos de solução com mais leveza.',
+      'Terapia breve que amplia o olhar sobre o sistema familiar, identifica lealdades e ciclos repetidos e favorece caminhos de solução com mais leveza.',
   },
   {
     id: 'reiki',
     name: 'Reiki',
     summary:
-      'Método de desbloqueio e reposição energética pela canalização do Ki, promovendo equilíbrio físico, mental, emocional e espiritual — presencial ou a distância.',
+      'Prática de reposição e equilíbrio energético pela canalização do Ki, com efeitos sobre os planos físico, mental, emocional e espiritual. Atendimento presencial ou a distância.',
     highlights: [
       'Relaxamento profundo',
-      'Alívio do estresse e da ansiedade',
-      'Melhora e alívio de dores',
+      'Alívio de estresse e ansiedade',
+      'Apoio no alívio de dores',
       'Paz mental',
-      'Energiza e equilibra o corpo',
-      'Fortalece o sistema imunológico',
+      'Equilíbrio e vitalidade',
+      'Suporte ao sistema imunológico',
     ],
   },
   {
     id: 'florais',
     name: 'Terapia Floral',
     summary:
-      'Essências florais do Dr. Bach para estados emocionais e mentais em desequilíbrio. Removem bloqueios na raiz, sem efeitos colaterais, e podem complementar outros tratamentos.',
+      'Essências florais do Dr. Bach para estados emocionais e mentais em desequilíbrio. Podem complementar outros tratamentos, sem efeitos colaterais, atuando na raiz dos bloqueios.',
   },
+]
+
+export const credentials = [
+  'Pós-graduação em Acupuntura',
+  'Auriculoterapia e Tui Ná',
+  'Constelação Familiar Sistêmica',
+  'Reiki e Terapia Floral',
 ]
 
 export const insight = {
   title: 'Corpo e emoção caminham juntos',
-  text: 'Nosso corpo expressa o que nem sempre conseguimos dizer de forma consciente. Os sintomas podem ser físicos, mas a origem muitas vezes é emocional — e é nesse olhar integrativo que o cuidado acontece.',
+  text: 'O corpo muitas vezes expressa o que ainda não encontramos palavras para dizer. Sintomas físicos podem ter origem emocional — e é nesse olhar integrativo que o cuidado se torna mais completo.',
 }
 
 export const quote = {
-  text: 'Tudo aquilo que você pensa, você cria; tudo aquilo que você sente, você atrai; e tudo aquilo que você acredita, torna-se realidade.',
+  text: 'A imaginação é a metade da doença; a tranquilidade é a metade do remédio; e a paciência é o começo da cura.',
 }
 
 export const aboutText =
-  'Terapeuta integrativa com pós-graduação em Acupuntura, atuando também com auriculoterapia, Tui Ná, Constelação Familiar Sistêmica, Reiki e Terapia Floral. Um cuidado acolhedor para reequilibrar corpo, mente e emoções.'
+  'Atendimento acolhedor em terapias sistêmicas e integrativas, com escuta atenta e foco no reequilíbrio de corpo, mente e emoções.'
+
+export const location = 'Juiz de Fora — MG'
 
 export const instagramUrl =
   'https://www.instagram.com/lusouza.terapias.holisticas/'
@@ -70,5 +79,5 @@ export const instagramUrl =
 export const whatsappPhone = '5532991604867'
 export const whatsappDisplay = '(32) 99160-4867'
 export const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(
-  'Olá Lucila! Gostaria de saber mais sobre as terapias.',
+  'Olá, Lucila! Gostaria de saber mais sobre o atendimento.',
 )}`

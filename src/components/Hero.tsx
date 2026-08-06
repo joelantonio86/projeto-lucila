@@ -1,4 +1,4 @@
-import { instagramUrl, whatsappUrl } from '../data/therapies'
+import { instagramUrl, location, whatsappUrl } from '../data/therapies'
 import brandPhoto from '../assets/logo-yin-yang.png'
 
 export function Hero() {
@@ -6,29 +6,33 @@ export function Hero() {
     <section className="hero" id="topo" aria-labelledby="hero-title">
       <div className="hero__backdrop" aria-hidden="true" />
       <div className="hero__glow" aria-hidden="true" />
-      <div className="hero__waves" aria-hidden="true" />
 
       <div className="hero__layout">
         <div className="hero__content">
+          <p className="hero__meta">{location}</p>
           <h1 className="hero__brand" id="hero-title">
             Lucila Souza
           </h1>
           <p className="hero__headline">Terapeuta Integrativa</p>
           <p className="hero__lead">
-            Paz, harmonia e equilíbrio para o corpo e as emoções — com terapias
-            sistêmicas e integrativas em um cuidado leve e acolhedor.
+            Cuidado profissional em terapias sistêmicas e integrativas para
+            reequilibrar corpo, mente e emoções — com presença, escuta e
+            acolhimento.
           </p>
           <div className="hero__actions">
             <a
-              className="btn btn--whatsapp"
+              className="btn"
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Agendar no WhatsApp
+              Agendar atendimento
+            </a>
+            <a className="btn btn--ghost" href="#terapias">
+              Ver terapias
             </a>
             <a
-              className="btn btn--ghost"
+              className="hero__link"
               href={instagramUrl}
               target="_blank"
               rel="noopener noreferrer"
