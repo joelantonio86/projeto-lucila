@@ -1,26 +1,23 @@
 # Lucila Souza — Site
 
-Site de divulgação da terapeuta integrativa Lucila Souza, feito em React + Vite para publicação na Vercel.
+Site de divulgação da terapeuta integrativa Lucila Souza (React + Vite).
 
-## Desenvolvimento
+## Preview local
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Build
+## GitHub Pages
 
-```bash
-npm run build
-npm run preview
-```
+O site é publicado automaticamente em:
 
-## Publicar na Vercel
+`https://<seu-usuario>.github.io/projeto-lucila/`
 
-1. Envie o repositório para o GitHub
-2. Importe o projeto em [vercel.com](https://vercel.com)
-3. Framework: Vite (detectado automaticamente)
-4. Deploy
+Após o push na branch `main`, o workflow em `.github/workflows/deploy-pages.yml` faz o build e o deploy.
 
-O contato do site aponta para o Instagram: https://www.instagram.com/lusouza.terapias.holisticas/
+## Contato
+
+- Instagram: https://www.instagram.com/lusouza.terapias.holisticas/
+- WhatsApp: +55 32 99160-4867
