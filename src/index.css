@@ -514,12 +514,39 @@ p {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 1rem;
+  align-items: start;
   padding: 1.55rem 0;
   border-top: 1px solid var(--line);
 }
 
 .therapy-item:last-child {
   border-bottom: 1px solid var(--line);
+}
+
+.therapy-item--featured {
+  padding-top: 1.75rem;
+}
+
+.therapy-item__image {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(37, 76, 60, 0.18);
+  background: var(--pearl);
+}
+
+.therapy-item__badge {
+  display: inline-block;
+  margin: 0 0 0.45rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(37, 76, 60, 0.12);
+  color: var(--sage);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .therapy-item__index {

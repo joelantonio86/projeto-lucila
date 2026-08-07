@@ -1,40 +1,59 @@
+import acupunturaImg from '../assets/highlights/acupuntura.png'
+import auriculoterapiaImg from '../assets/highlights/auriculoterapia.png'
+import constelacaoImg from '../assets/highlights/constelacao.png'
+import floraisImg from '../assets/highlights/florais.png'
+import reikiImg from '../assets/highlights/reiki.png'
+import tuinaImg from '../assets/highlights/tuina.png'
+
 export type Therapy = {
   id: string
   name: string
   summary: string
+  image: string
+  imageAlt: string
   highlights?: string[]
 }
 
 export const therapies: Therapy[] = [
   {
+    id: 'constelacao',
+    name: 'Constelação Familiar Sistêmica',
+    summary:
+      'Terapia breve que amplia o olhar sobre o sistema familiar, identifica lealdades e ciclos repetidos e favorece caminhos de solução com mais leveza. Abordagem de foco atual no atendimento.',
+    image: constelacaoImg,
+    imageAlt: 'Representação visual da Constelação Familiar Sistêmica',
+  },
+  {
     id: 'acupuntura',
     name: 'Acupuntura',
     summary:
       'Técnica milenar chinesa para prevenção e tratamento de desconfortos físicos e psicossomáticos — como ansiedade, estresse e insônia — favorecendo o equilíbrio do corpo e da mente.',
+    image: acupunturaImg,
+    imageAlt: 'Destaque de Acupuntura',
   },
   {
     id: 'auriculoterapia',
     name: 'Auriculoterapia',
     summary:
       'Estimulação de pontos no pavilhão auricular com microagulhas, sementes, cristais ou Stiper, atuando sobre o organismo por meio desse microsistema.',
+    image: auriculoterapiaImg,
+    imageAlt: 'Destaque de Auriculoterapia',
   },
   {
     id: 'tuina',
     name: 'Tui Ná',
     summary:
       'Massagem terapêutica chinesa voltada ao bem-estar, ao relaxamento muscular e à reintegração entre corpo, mente e espírito.',
-  },
-  {
-    id: 'constelacao',
-    name: 'Constelação Familiar Sistêmica',
-    summary:
-      'Terapia breve que amplia o olhar sobre o sistema familiar, identifica lealdades e ciclos repetidos e favorece caminhos de solução com mais leveza.',
+    image: tuinaImg,
+    imageAlt: 'Destaque de Tui Ná',
   },
   {
     id: 'reiki',
     name: 'Reiki',
     summary:
       'Prática de reposição e equilíbrio energético pela canalização do Ki, com efeitos sobre os planos físico, mental, emocional e espiritual. Atendimento presencial ou a distância.',
+    image: reikiImg,
+    imageAlt: 'Destaque de Reiki',
     highlights: [
       'Relaxamento profundo',
       'Alívio de estresse e ansiedade',
@@ -49,13 +68,15 @@ export const therapies: Therapy[] = [
     name: 'Terapia Floral',
     summary:
       'Essências florais do Dr. Bach para estados emocionais e mentais em desequilíbrio. Podem complementar outros tratamentos, sem efeitos colaterais, atuando na raiz dos bloqueios.',
+    image: floraisImg,
+    imageAlt: 'Destaque de Terapia Floral',
   },
 ]
 
 export const credentials = [
+  'Constelação Familiar Sistêmica',
   'Pós-graduação em Acupuntura',
   'Auriculoterapia e Tui Ná',
-  'Constelação Familiar Sistêmica',
   'Reiki e Terapia Floral',
 ]
 
