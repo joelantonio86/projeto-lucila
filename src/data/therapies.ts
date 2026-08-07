@@ -1,4 +1,5 @@
 import acupunturaImg from '../assets/highlights/acupuntura.png'
+import auriculopunturaImg from '../assets/highlights/auriculopuntura.png'
 import auriculoterapiaImg from '../assets/highlights/auriculoterapia.png'
 import constelacaoImg from '../assets/highlights/constelacao.png'
 import floraisImg from '../assets/highlights/florais.png'
@@ -32,10 +33,18 @@ export const therapies: Therapy[] = [
     imageAlt: 'Destaque de Acupuntura',
   },
   {
+    id: 'auriculopuntura',
+    name: 'Auriculopuntura',
+    summary:
+      'Acupuntura no pavilhão auricular com microagulhas, atuando sobre o organismo por meio do microsistema da orelha para reequilíbrio físico e emocional.',
+    image: auriculopunturaImg,
+    imageAlt: 'Destaque de Auriculopuntura',
+  },
+  {
     id: 'auriculoterapia',
     name: 'Auriculoterapia',
     summary:
-      'Estimulação de pontos no pavilhão auricular com microagulhas, sementes, cristais ou Stiper, atuando sobre o organismo por meio desse microsistema.',
+      'Estimulação de pontos auriculares com sementes, cristais ou Stiper, promovendo tratamento do corpo e da mente a partir desse microsistema.',
     image: auriculoterapiaImg,
     imageAlt: 'Destaque de Auriculoterapia',
   },
@@ -76,8 +85,8 @@ export const therapies: Therapy[] = [
 export const credentials = [
   'Constelação Familiar Sistêmica',
   'Pós-graduação em Acupuntura',
-  'Auriculoterapia e Tui Ná',
-  'Reiki e Terapia Floral',
+  'Auriculopuntura e Auriculoterapia',
+  'Tui Ná, Reiki e Terapia Floral',
 ]
 
 export const insight = {
