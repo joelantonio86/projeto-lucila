@@ -15,9 +15,9 @@ export function Hero() {
           </h1>
           <p className="hero__headline">Terapeuta Integrativa</p>
           <p className="hero__lead">
-            Cuidado profissional em terapias sistêmicas e integrativas para
-            reequilibrar corpo, mente e emoções — com presença, escuta e
-            acolhimento.
+            Atendimento em terapias sistêmicas e integrativas para reequilibrar
+            corpo, mente e emoções — com escuta, presença e acompanhamento
+            responsável.
           </p>
           <div className="hero__actions">
             <a

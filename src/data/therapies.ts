@@ -69,7 +69,7 @@ export const quote = {
 }
 
 export const aboutText =
-  'Atendimento acolhedor em terapias sistêmicas e integrativas, com escuta atenta e foco no reequilíbrio de corpo, mente e emoções.'
+  'Atendimento em terapias sistêmicas e integrativas, com escuta atenta, ética profissional e foco no reequilíbrio de corpo, mente e emoções.'
 
 export const location = 'Juiz de Fora — MG'
 

@@ -11,8 +11,7 @@ export function Therapies() {
         <p className="eyebrow">Terapias</p>
         <h2 id="terapias-title">Especialidades</h2>
         <p className="section__lead">
-          Cada abordagem é apresentada de forma clara, para que você escolha o
-          caminho mais adequado ao seu momento.
+          Conheça as principais abordagens oferecidas no atendimento.
         </p>
 
         <ul className="therapy-list">

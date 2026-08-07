@@ -6,7 +6,7 @@ export function About() {
       <div className="section__inner about__grid">
         <div>
           <p className="eyebrow">Sobre</p>
-          <h2 id="sobre-title">Formação e presença no cuidado</h2>
+          <h2 id="sobre-title">Formação e cuidado clínico</h2>
           <p className="about__text">{aboutText}</p>
           <p className="about__location">{location}</p>
           <ul className="credential-list">
