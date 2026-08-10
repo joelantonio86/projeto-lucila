@@ -12,6 +12,7 @@ export type Therapy = {
   summary: string
   image: string
   imageAlt: string
+  callout?: string
   highlights?: string[]
 }
 
@@ -20,7 +21,9 @@ export const therapies: Therapy[] = [
     id: 'constelacao',
     name: 'Constelação Familiar Sistêmica',
     summary:
-      'Terapia breve que amplia o olhar sobre o sistema familiar, identifica lealdades e ciclos repetidos e favorece caminhos de solução com mais leveza. Atendimento presencial e online — abordagem de foco atual.',
+      'Terapia breve que amplia o olhar sobre o sistema familiar, identifica lealdades e ciclos repetidos e favorece caminhos de solução com mais leveza. Abordagem de foco atual no atendimento.',
+    callout:
+      'Atendimento presencial e online da terapia Constelação Familiar Sistêmica',
     image: constelacaoImg,
     imageAlt:
       'Representação de Constelação Familiar com bonecos coloridos dispostos em círculo, simbolizando relações sistêmicas',

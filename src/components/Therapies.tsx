@@ -34,6 +34,9 @@ export function Therapies() {
                   <p className="therapy-item__badge">Foco atual</p>
                 ) : null}
                 <h3>{therapy.name}</h3>
+                {therapy.callout ? (
+                  <p className="therapy-item__callout">{therapy.callout}</p>
+                ) : null}
                 <p>{therapy.summary}</p>
                 {therapy.highlights ? (
                   <ul className="therapy-highlights">

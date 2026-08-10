@@ -563,7 +563,18 @@ p {
   margin-bottom: 0.45rem;
 }
 
-.therapy-item p {
+.therapy-item__callout {
+  margin: 0 0 0.7rem;
+  padding: 0.55rem 0.8rem;
+  border-left: 3px solid var(--rose);
+  background: rgba(37, 76, 60, 0.08);
+  color: var(--sage-deep);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.therapy-item p:not(.therapy-item__callout):not(.therapy-item__badge) {
   color: var(--muted);
   line-height: 1.65;
   font-weight: 400;
