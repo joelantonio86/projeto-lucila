@@ -9,17 +9,19 @@ export function Hero() {
 
       <div className="hero__layout">
         <div className="hero__content">
-          <p className="hero__meta">{location}</p>
-          <h1 className="hero__brand" id="hero-title">
+          <p className="hero__meta hero-enter hero-enter--1">{location}</p>
+          <h1 className="hero__brand hero-enter hero-enter--2" id="hero-title">
             Lucila Souza
           </h1>
-          <p className="hero__headline">Terapeuta Integrativa</p>
-          <p className="hero__lead">
+          <p className="hero__headline hero-enter hero-enter--3">
+            Terapeuta Integrativa
+          </p>
+          <p className="hero__lead hero-enter hero-enter--4">
             Atendimento em terapias sistêmicas e integrativas para reequilibrar
             corpo, mente e emoções — com escuta, presença e acompanhamento
             responsável.
           </p>
-          <div className="hero__actions">
+          <div className="hero__actions hero-enter hero-enter--5">
             <a
               className="btn"
               href={whatsappUrl}
@@ -42,7 +44,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="hero__portrait">
+        <div className="hero__portrait hero-enter hero-enter--0">
           <img
             src={brandPhoto}
             alt="Logo Lucila Souza — árvore da vida com yin-yang"

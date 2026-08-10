@@ -4,15 +4,19 @@ import {
   whatsappDisplay,
   whatsappUrl,
 } from '../data/therapies'
+import { useRevealScope } from '../hooks/useRevealScope'
 
 export function Contact() {
+  const sectionRef = useRevealScope<HTMLElement>()
+
   return (
     <section
+      ref={sectionRef}
       className="section contact"
       id="contato"
       aria-labelledby="contato-title"
     >
-      <div className="section__inner contact__band">
+      <div className="section__inner contact__band" data-reveal>
         <div className="contact__intro">
           <p className="eyebrow contact__eyebrow">Contato</p>
           <h2 id="contato-title">Agende seu atendimento</h2>
