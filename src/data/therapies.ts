@@ -20,9 +20,10 @@ export const therapies: Therapy[] = [
     id: 'constelacao',
     name: 'Constelação Familiar Sistêmica',
     summary:
-      'Terapia breve que amplia o olhar sobre o sistema familiar, identifica lealdades e ciclos repetidos e favorece caminhos de solução com mais leveza. Abordagem de foco atual no atendimento.',
+      'Terapia breve que amplia o olhar sobre o sistema familiar, identifica lealdades e ciclos repetidos e favorece caminhos de solução com mais leveza. Atendimento presencial e online — abordagem de foco atual.',
     image: constelacaoImg,
-    imageAlt: 'Representação visual da Constelação Familiar Sistêmica',
+    imageAlt:
+      'Representação de Constelação Familiar com bonecos coloridos dispostos em círculo, simbolizando relações sistêmicas',
   },
   {
     id: 'acupuntura',
