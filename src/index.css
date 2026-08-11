@@ -296,14 +296,17 @@ p {
 
 .hero__portrait {
   order: -1;
-  width: min(280px, 72vw);
-  aspect-ratio: 1;
-  border-radius: 50%;
+  width: min(320px, 78vw);
+  aspect-ratio: 2 / 3;
+  border-radius: 1.35rem;
   overflow: hidden;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(255, 236, 200, 0.35), transparent 55%),
+    #1c261c;
   box-shadow:
-    0 0 0 1px rgba(20, 32, 27, 0.1),
-    0 0 0 10px rgba(232, 238, 233, 0.65),
-    0 28px 60px rgba(20, 32, 27, 0.2);
+    0 0 0 1px rgba(20, 32, 27, 0.12),
+    0 0 0 12px rgba(232, 238, 233, 0.55),
+    0 32px 70px rgba(20, 32, 27, 0.28);
 }
 
 .hero__backdrop {
@@ -372,7 +375,9 @@ p {
 .hero__portrait img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center center;
+  display: block;
 }
 
 .hero__brand {
@@ -1045,7 +1050,8 @@ p {
 
   .hero__portrait {
     order: 0;
-    width: min(400px, 100%);
+    width: min(420px, 100%);
+    aspect-ratio: 2 / 3;
     justify-self: end;
   }
 
