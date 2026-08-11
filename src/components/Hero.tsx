@@ -47,7 +47,7 @@ export function Hero() {
         <div className="hero__portrait hero-enter hero-enter--0">
           <img
             src={brandPhoto}
-            alt="Logo Lucila Souza — árvore da vida com yin-yang"
+            alt="Lucila Souza — árvore da vida com mulher integrada às raízes e aos galhos"
             width={520}
             height={520}
             decoding="async"

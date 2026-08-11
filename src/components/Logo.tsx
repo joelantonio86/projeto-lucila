@@ -9,7 +9,7 @@ export function Logo({ className = '' }: LogoProps) {
     <img
       className={`brand-logo ${className}`.trim()}
       src={logoImg}
-      alt="Lucila Souza — logo árvore yin-yang"
+      alt="Lucila Souza — árvore da vida"
       width={80}
       height={80}
       decoding="async"
