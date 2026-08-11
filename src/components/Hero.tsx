@@ -1,5 +1,5 @@
 import { instagramUrl, location, whatsappUrl } from '../data/therapies'
-import brandPhoto from '../assets/logo-arvore-circulo.jpg'
+import brandPhoto from '../assets/logo-arvore-completa.png'
 
 export function Hero() {
   return (
@@ -48,8 +48,8 @@ export function Hero() {
           <img
             src={brandPhoto}
             alt="Lucila Souza — árvore da vida com mulher integrada às raízes e aos galhos"
-            width={900}
-            height={900}
+            width={682}
+            height={1024}
             decoding="async"
           />
         </div>
